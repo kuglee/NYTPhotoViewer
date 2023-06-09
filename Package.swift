@@ -13,7 +13,7 @@ let package = Package(
             ),
     ],
     dependencies: [
-        .package(url: "https://github.com/pinterest/PINRemoteImage.git", from: "3.0.1")
+        .package(url: "git@github.com:cloudninewx/PINRemoteImage.git", from: "3.0.4")
     ],
     targets: [
         .target(
