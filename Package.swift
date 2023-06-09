@@ -9,8 +9,8 @@ let package = Package(
     products: [
         .library(
             name: "NYTPhotoViewer",
-            targets: ["NYTPhotoViewer", "NYTPhotoViewerGIF"]
-            ),
+            targets: ["NYTPhotoViewer"]
+        ),
     ],
     dependencies: [
         .package(url: "git@github.com:cloudninewx/PINRemoteImage.git", from: "3.0.4")
@@ -18,12 +18,8 @@ let package = Package(
     targets: [
         .target(
             name: "NYTPhotoViewer",
-            path: "NYTPhotoViewer"
-        ),
-        .target(
-            name: "NYTPhotoViewerGIF",
             dependencies: ["PINRemoteImage"],
-            path: "SourceSymLink",
+            path: "NYTPhotoViewer",
             cSettings: [
               .define("ANIMATED_GIF_SUPPORT", to: "1")
             ]
