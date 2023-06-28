@@ -30,7 +30,7 @@
       },
       {
         "package": "PINRemoteImage",
-        "repositoryURL": "git@github.com:cloudninewx/PINRemoteImage.git",
+        "repositoryURL": "https://github.com/cloudninewx/PINRemoteImage.git",
         "state": {
           "branch": null,
           "revision": "ef547920dfe0e1922c25d9abb959acd102f8c2b5",
